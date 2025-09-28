@@ -1,0 +1,150 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #141414;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e50914;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #e50914;
+}
+
+header .signin {
+    background-color: #e50914;
+    border: none;
+    padding: 8px 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+header .signin:hover {
+    background-color: #f40612;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-image: url('https://i.pinimg.com/736x/af/f0/6f/aff06fb3660a32e8f90bde5c46d3c80f.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-text .cta {
+    background-color: #e50914;
+    border: none;
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.hero-text .cta:hover {
+    background-color: #f40612;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #333;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #141414;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    color: #888;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
